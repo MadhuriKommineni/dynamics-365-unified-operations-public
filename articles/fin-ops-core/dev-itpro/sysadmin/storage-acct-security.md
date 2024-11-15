@@ -42,5 +42,4 @@ If you receive the error, follow these steps.
     UPDATE SysFlighting SET enabled = 1, flightServiceId = 12719367 WHERE flightName = @flightName;
     select * from SysFlighting where flightName = 'EnableSharingOfValidStorageConnectionString';
     ```
-
 2. In the CHE, restart Application Object Server (AOS) and the Batch service.
